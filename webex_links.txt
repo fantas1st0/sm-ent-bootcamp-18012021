@@ -1,0 +1,29 @@
+################################################## DAY 1 (L2 FOUNDATION) ##################################################
+Webex meeting recording: SM Networking Bootcamp-20210118 1605-1
+Password: DrJYpPq2
+Recording link: https://cisco.webex.com/cisco/ldr.php?RCID=6c953d93091948899f30190abe39054f
+
+################################################## DAY 2 (STP) ##################################################
+Webex meeting recording: SM Networking Bootcamp-20210120 1643-1
+Password: vBNfpGJ3
+Recording link: https://cisco.webex.com/cisco/ldr.php?RCID=6bed5a2c0f7841079ff409a28aacb742
+
+################################################## DAY 3 (MST, VTP) ##################################################
+Webex meeting recording: SM Networking Bootcamp-20210121 1604-1
+Password: 7Bp7rPQA
+Recording link: https://cisco.webex.com/cisco/ldr.php?RCID=23040921b831447f9aed14c37689a9c5
+
+################################################## DAY 4 (LACP) ##################################################
+Webex meeting recording: SM Networking Bootcamp-20210125 1604-1
+Password: jJHkEWa6
+Recording link: https://cisco.webex.com/cisco/ldr.php?RCID=428c44850216d98ab4abf04ffd28778d
+
+################################################## DAY 5 (STATIC ROUTING, CEF) ##################################################
+Webex meeting recording: SM Networking Bootcamp-20210127 1600-1
+Password: Jvaa6Yng
+Recording link: https://cisco.webex.com/cisco/ldr.php?RCID=dfc8a6c1b89f3fb995d7c89a22610e6d
+
+################################################## DAY 6 (PBR) ##################################################
+Webex meeting recording: SM Networking Bootcamp-20210128 1602-1
+Password: jVpreJE7
+Recording link: https://cisco.webex.com/cisco/ldr.php?RCID=e94b95696dc7038ef07e6f25da9e68e1
