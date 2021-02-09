@@ -27,3 +27,9 @@ Recording link: https://cisco.webex.com/cisco/ldr.php?RCID=dfc8a6c1b89f3fb995d7c
 Webex meeting recording: SM Networking Bootcamp-20210128 1602-1
 Password: jVpreJE7
 Recording link: https://cisco.webex.com/cisco/ldr.php?RCID=e94b95696dc7038ef07e6f25da9e68e1
+
+
+################################################## DAY 7 (OSPF: LSA Types 1 and 2) ##################################################
+Webex meeting recording: SM Networking Bootcamp-20210208 1601-1
+Password: CsKs7J3m
+Recording link: https://cisco.webex.com/cisco/ldr.php?RCID=f45f62f84ee4780f914c95dd36e8f982
