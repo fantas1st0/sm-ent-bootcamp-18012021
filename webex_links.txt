@@ -33,3 +33,25 @@ Recording link: https://cisco.webex.com/cisco/ldr.php?RCID=e94b95696dc7038ef07e6
 Webex meeting recording: SM Networking Bootcamp-20210208 1601-1
 Password: CsKs7J3m
 Recording link: https://cisco.webex.com/cisco/ldr.php?RCID=f45f62f84ee4780f914c95dd36e8f982
+
+################################################## DAY 8 (OSPF: LSA Types 3, 4, 5) ##################################################
+Webex meeting recording: SM Networking Bootcamp-20210210 1632-1
+Password: 8dGMP22R
+Recording link: https://cisco.webex.com/cisco/ldr.php?RCID=f6767aa704e46c594405bb31aa6c47b3
+
+################################################## DAY 9 (OSPF Summarization, Filtering) ##################################################
+Webex meeting recording: SM Networking Bootcamp-20210211 1601-1
+Password: Fq443RSp
+Recording link: https://cisco.webex.com/cisco/ldr.php?RCID=b72013b1550d315af7386093f0bc8846
+
+################################################## DAY 10 (BGP Introduction) ##################################################
+Webex meeting recording: SM Networking Bootcamp-20210224 1602-1
+Password: UaJPAka4
+Recording link: https://cisco.webex.com/cisco/ldr.php?RCID=80d0dd7fef512d409c00053a3f3c9fe7
+
+################################################## DAY 11 (BGP General Attributes) ##################################################
+Webex meeting recording: SM Networking Bootcamp-20210225 1605-1
+Password: 7HsbWhRU
+Recording link: https://cisco.webex.com/cisco/ldr.php?RCID=be902caadb9ae125de1e78eb23ffbc28
+
+################################################## DAY 12 ##################################################
