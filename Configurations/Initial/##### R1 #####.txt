@@ -1,0 +1,75 @@
+##### R1 #####
+
+host R1
+line cons 0
+ logg sync
+ exec-t 45 0
+!
+no ip domain lookup
+!
+int lo0
+ ip address 1.1.1.1 255.255.255.255
+!
+int gi0/0
+ no shut
+int gi0/0.12
+ enc dot 12
+ ip address 10.1.2.1 255.255.255.0
+!
+router ospf 1
+ router-id 1.1.1.1
+ network 10.1.2.1 0.0.0.0 area 0
+ network 1.1.1.1 0.0.0.0 area 0
+!
+router bgp 123
+ no bgp default ipv4-unicast
+ bgp router-id 1.1.1.1
+ !
+ neighbor 2.2.2.2 remote-as 123
+ neighbor 2.2.2.2 update-source Loopback0
+ !
+ address-family ipv4 unicast
+  neighbor 2.2.2.2 activate
+
+
+##### R2 #####
+
+host R2
+line cons 0
+ logg sync
+ exec-t 45 0
+!
+no ip domain lookup
+!
+int lo0
+ ip address 2.2.2.2 255.255.255.255
+!
+int gi0/0
+ no shut
+int gi0/0.12
+ enc dot 12
+ ip address 10.1.2.2 255.255.255.0
+int gi0/0.23
+ enc dot 23
+ ip address 10.2.3.2 255.255.255.0
+!
+router ospf 1
+ router-id 2.2.2.2
+ network 10.1.2.2 0.0.0.0 area 0
+ network 2.2.2.2 0.0.0.0 area 0
+ network 10.2.3.2 0.0.0.0 area 0
+!
+router bgp 123
+ no bgp default ipv4-unicast
+ bgp router-id 2.2.2.2
+ !
+ neighbor 1.1.1.1 remote-as 123
+ neighbor 1.1.1.1 update-source Loopback0
+ neighbor 3.3.3.3 remote-as 123
+ neighbor 3.3.3.3 update-source Loopback0
+ !
+ address-family ipv4 unicast
+  neighbor 1.1.1.1 activate
+  neighbor 1.1.1.1 route-reflector-client
+  neighbor 3.3.3.3 activate
+  neighbor 3.3.3.3 route-reflector-client

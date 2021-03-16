@@ -1,0 +1,36 @@
+##### R3 #####
+
+host R3
+line cons 0
+ logg sync
+ exec-t 45 0
+!
+no ip domain lookup
+!
+int lo0
+ ip address 3.3.3.3 255.255.255.255
+!
+int gi0/0
+ no shut
+int gi0/0.23
+ enc dot 23
+ ip address 10.2.3.3 255.255.255.0
+!
+router ospf 1
+ router-id 3.3.3.3
+ network 10.2.3.3 0.0.0.0 area 0
+ network 3.3.3.3 0.0.0.0 area 0
+!
+router bgp 123
+ no bgp default ipv4-unicast
+ bgp router-id 3.3.3.3
+ !
+ neighbor 2.2.2.2 remote-as 123
+ neighbor 2.2.2.2 update-source Loopback0
+ !
+ address-family ipv4 unicast
+  neighbor 2.2.2.2 activate
+  network 33.33.33.33 mask 255.255.255.255
+!
+int lo1
+ ip add 33.33.33.33 255.255.255.255

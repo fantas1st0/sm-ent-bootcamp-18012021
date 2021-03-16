@@ -54,4 +54,35 @@ Webex meeting recording: SM Networking Bootcamp-20210225 1605-1
 Password: 7HsbWhRU
 Recording link: https://cisco.webex.com/cisco/ldr.php?RCID=be902caadb9ae125de1e78eb23ffbc28
 
-################################################## DAY 12 ##################################################
+################################################## DAY 12 (BGP Part 3) ##################################################
+Webex meeting recording: SM Networking Bootcamp-20210301 1622-1
+Password: yT8M6hTp
+Recording link: https://cisco.webex.com/cisco/ldr.php?RCID=966bf54b6462dbc74d79e0c04764d569
+
+################################################## DAY 13 (BGP Part 4) ##################################################
+Webex meeting recording: SM Networking Bootcamp-20210303 1601-1
+Password: 4SknMZiE
+Recording link: https://cisco.webex.com/cisco/ldr.php?RCID=7877e789891d821a99d1ff2beb5765ab
+
+################################################## DAY 14 (BGP Part 5)  ##################################################
+Webex meeting recording: SM Networking Bootcamp-20210304 1620-1
+Password: fMMbAgv3
+Recording link: https://cisco.webex.com/cisco/ldr.php?RCID=2ab7f2653b5fa5abe2ac258995121ed5
+
+
+################################################## DAY 15 (MPLS Foundations) ##################################################
+Webex meeting recording: SM Networking Bootcamp-20210310 1603-1
+Password: JhMmS2hS
+Recording link: https://cisco.webex.com/cisco/ldr.php?RCID=dab26bd641e044de920ac22718fe65e7
+
+################################################## DAY 16 (MPLS L3 VPN) ##################################################
+Webex meeting recording: SM Networking Bootcamp-20210311 1623-1
+Password: 9HfNUm4N
+Recording link: https://cisco.webex.com/cisco/ldr.php?RCID=fd9bd4165b5ecd98ff0afde7de4c4a39
+
+################################################## DAY 17 (OSPF as PE-CE) ##################################################
+Webex meeting recording: SM Networking Bootcamp-20210315 1624-1
+Password: aWqDbPk5
+Recording link: https://cisco.webex.com/cisco/ldr.php?RCID=ed0961509e68cfef4866c1ae7114f532
+
+################################################## DAY 18 ##################################################

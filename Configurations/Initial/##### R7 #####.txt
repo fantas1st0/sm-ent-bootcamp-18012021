@@ -1,0 +1,45 @@
+##### R7 #####
+
+host R7
+line cons 0
+ logg sync
+ exec-t 45 0
+!
+no ip domain lookup
+!
+int lo0
+ ip address 7.7.7.7 255.255.255.255
+!
+int gi0/0
+ no shut
+int gi0/0.47
+ enc dot 47
+ ip address 10.4.7.7 255.255.255.0
+int gi0/0.57
+ enc dot 57
+ ip address 10.5.7.7 255.255.255.0
+!
+router ospf 1
+ router-id 7.7.7.7
+ network 10.5.7.7 0.0.0.0 area 0
+ network 10.4.7.7 0.0.0.0 area 0
+ network 7.7.7.7 0.0.0.0 area 0
+!
+router bgp 457
+ no bgp default ipv4-unicast
+ bgp router-id 7.7.7.7
+ !
+ neighbor 4.4.4.4 remote-as 457
+ neighbor 4.4.4.4 update-source Loopback0
+ neighbor 5.5.5.5 remote-as 457
+ neighbor 5.5.5.5 update-source Loopback0
+ !
+ address-family ipv4 unicast
+  neighbor 4.4.4.4 activate
+  neighbor 5.5.5.5 activate
+  neighbor 4.4.4.4 route-reflector-client
+  neighbor 5.5.5.5 route-reflector-client
+  network 77.77.77.77 mask 255.255.255.255
+!
+int lo1
+ ip add 77.77.77.77 255.255.255.255
